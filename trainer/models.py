@@ -16,7 +16,7 @@ class Trainer(models.Model):
     last_name = models.CharField(max_length=20) 
     image = models.ImageField(upload_to='images/')
     gender = models.CharField(max_length=20, choices = GENDER,default = 'FEMALE')
-    phone_number = PhoneNumberField
+    phone_number = PhoneNumberField()
     email =models.EmailField()
     city= models.CharField(max_length=20, default='Nairobi')
     company =models.CharField(max_length=20)

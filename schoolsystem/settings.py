@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'student',
     'trainer',
     'course',
-    'event',
+    'events',
     'home',
     'api',
 
