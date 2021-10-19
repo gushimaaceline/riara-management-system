@@ -51,10 +51,10 @@ INSTALLED_APPS = [
     #my apps
     'student',
     'trainer',
-     'course',
-      'events',
-      'home',
-      'api',
+    'course',
+    'event',
+    'home',
+    'api',
 
 ]
 
